@@ -1,0 +1,123 @@
+body {
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center; 
+}
+
+.custom-text {
+  color: aliceblue;
+}
+
+#login-form input:first-child {
+  width: 300px;
+}
+
+#bottom-infos {
+  position:absolute;
+  bottom:0;
+  right:0;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  text-align: right;
+}
+
+#clock {
+  font-size: xx-large;
+}
+
+#user-info {
+  display: flex;
+  justify-content: flex-end;
+}
+
+#login-form input[type="submit"] {
+  background: #6E85B7;
+  border: 1px solid #6E85B7;
+  color: #fff;
+  padding: 0 30px;
+  cursor: pointer;
+  -webkit-transition: all 0.2s;
+  -moz-transition: all 0.2s;
+  transition: all 0.2s;
+}
+
+#login-form input[type="submit"]:hover {
+  background: #B2C8DF;
+  border: 1px solid #B2C8DF;
+}
+
+#login-form {
+  display: -webkit-box;
+  display: flex;
+  box-shadow: 4px 8px 16px rgba(0, 0, 0, 0.3);
+}
+
+.text-input {
+  border: 0;
+  padding: 0 0 0 10px;
+  background: #fff;
+  line-height: 50px;
+  font-size: 1rem;
+  border-radius: 0;
+  outline: 0;
+  -webkit-appearance: none;
+}
+
+#todo-list {
+  font-size: large;
+}
+
+.hidden {
+  visibility: hidden;
+}
+
+#quote {
+  width: 300px;
+  margin-left: 20px;
+  margin-top: 20px;
+  text-align: left;
+  font-size: large;
+}
+
+#todo-layout {
+  width: 500px;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%)
+}
+
+#todo-form :first-child {
+  width: 500px;
+}
+
+#todo-form input[type="text"] {
+  width: 500px;
+}
+
+.todo-item {
+  width: 500px;
+  display: flex;
+  justify-content: space-between;
+  font-size: 25px;
+  margin-top: 10px;
+}
+
+#todo-list {
+  width: 500px;
+  margin-left: 0;
+  margin-right: 0;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.delete {
+  background: #6E85B7;
+  border: 1px solid #6E85B7;
+  color: #fff;
+}

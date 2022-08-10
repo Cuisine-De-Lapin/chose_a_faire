@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.css"/>
+
+  <title>Bienvenue !</title>
+</head>
+<body>
+  <div id="user-info">
+    <form id="login-form" class="hidden">
+      <input required maxlength = "15" type="text" placeholder="comment vous appelez-vous ?" class = "text-input"/>
+      <input type="submit" value = "Log In">
+    </form>
+    <h1 id = "greeting" class="hidden custom-text"></h1>
+  </div>
+
+  <div id="quote" class="custom-text">
+    <span></span>
+    <span></span>
+  </div>
+  
+  <div id="todo-layout">
+    <form id="todo-form">
+      <input type="text" placeholder="Écrivez une chose à faire et appuyez sur Entrée." class = "text-input"/>
+    </form>
+    <ul id="todo-list" class="custom-text"></ul>
+  </div>
+  
+
+
+  <div id="bottom-infos" class="custom-text">
+    <div id="weather"></div>
+    <div id="clock"></div>
+  </div>
+  
+
+  <script src="js/clock.js"></script>
+  <script src="js/greetings.js"></script>
+  <script src="js/quotes.js"></script>
+  <script src="js/background.js"></script>
+  <script src="js/todo.js"></script>
+  <script src="js/weather.js"></script>
+</body>
+</html>
