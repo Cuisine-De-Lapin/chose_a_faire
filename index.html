@@ -12,7 +12,7 @@
   <div id="user-info">
     <form id="login-form" class="hidden">
       <input required maxlength = "15" type="text" placeholder="comment vous appelez-vous ?" class = "text-input"/>
-      <input type="submit" value = "Log In">
+      <input type="submit" value = "Log In" class="basic-button">
     </form>
     <h1 id = "greeting" class="hidden custom-text"></h1>
   </div>
@@ -35,7 +35,14 @@
     <div id="weather"></div>
     <div id="clock"></div>
   </div>
-  
+
+ <div id="tete-queue">
+  <div id ="game-buttons">
+    <button id="head" class="basic-button">Tête</button>
+    <button id="tail" class="basic-button">Queue</button>
+  </div>
+  <ul id="history-list" class="custom-text"></ul>
+ </div>
 
   <script src="js/clock.js"></script>
   <script src="js/greetings.js"></script>
@@ -43,5 +50,6 @@
   <script type = "module" src="js/background.js"></script>
   <script src="js/todo.js"></script>
   <script src="js/weather.js"></script>
+  <script src="js/head-tail.js"></script>
 </body>
 </html>

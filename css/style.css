@@ -33,7 +33,7 @@ body {
   justify-content: flex-end;
 }
 
-#login-form input[type="submit"] {
+.basic-button {
   background: #6E85B7;
   border: 1px solid #6E85B7;
   color: #fff;
@@ -44,7 +44,7 @@ body {
   transition: all 0.2s;
 }
 
-#login-form input[type="submit"]:hover {
+.basic-button:hover {
   background: #B2C8DF;
   border: 1px solid #B2C8DF;
 }
@@ -120,4 +120,37 @@ body {
   background: #6E85B7;
   border: 1px solid #6E85B7;
   color: #fff;
+}
+
+#tete-queue {
+  width:350px; 
+  position:absolute;
+  bottom:0;
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+
+#history-list {
+  overflow-y: scroll; 
+  width:350px; 
+  height:350px;
+  overflow: auto;
+}
+
+#history-list::-webkit-scrollbar {
+  width: 5px;
+  background-color: transparent;
+}
+
+#history-list::-webkit-scrollbar-thumb {
+  background-color: #6E85B7;
+}
+
+#game-buttons {
+  width: 350px;
+  display: flex;
+}
+
+#game-buttons button {
+  flex: 1;
 }
