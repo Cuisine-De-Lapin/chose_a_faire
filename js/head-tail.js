@@ -11,9 +11,9 @@ function getResult(isHead) {
 }
 
 function getTextResult(isHead, isSuccess) {
-  const yours = `Vous avez choisi ${isHead ? TEXT_HEAD : TEXT_TAIL}.`;
-  const ais = `IA a choisi ${isSuccess == isHead ? TEXT_HEAD : TEXT_TAIL}.`;
-  const result = isSuccess ? "Félicitations ! Vous réussissez !" : "Je suis désolé... Vous n'échouez pas...";
+  const yours = `Vous avez choisi <b>${isHead ? TEXT_HEAD : TEXT_TAIL}</b>.`;
+  const ais = `IA a choisi <b>${isSuccess == isHead ? TEXT_HEAD : TEXT_TAIL}.</b>`;
+  const result = isSuccess ? "Félicitations ! Vous <b>réussissez</b> !" : "Je suis désolé... Vous <b>échouez</b>...";
 
   const li = document.createElement("li");
   li.innerHTML = `${yours}<br>${ais}<br>${result}`
